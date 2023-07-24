@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
+// import { Document, Page, pdfjs } from 'react-pdf';
 
 import {
 	Section,
@@ -9,13 +9,13 @@ import {
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const Hero = () => {
-	const [showResume, setshowResume] = React.useState(false);
-	const toggleShowResume = () => {
-		setshowResume((current) => !current);
-	};
+	// const [showResume, setshowResume] = React.useState(false);
+	// const toggleShowResume = () => {
+	// 	setshowResume((current) => !current);
+	// };
 
 	return (
 		<Section row nopadding>
@@ -28,7 +28,7 @@ const Hero = () => {
 					I am a developer with a passion for beautiful interfaces. I like to
 					craft quality and interactive products with great user experiences.
 				</SectionText>
-				<Document file="/Resume.pdf">
+				{/* <Document file="/Resume.pdf">
 					<a target="_blank">
 						<Button onClick={toggleShowResume}>
 							{showResume ? 'Close' : 'View my Resume'}
@@ -42,7 +42,7 @@ const Hero = () => {
 							/>
 						)}
 					</a>
-				</Document>
+				</Document> */}
 			</LeftSection>
 		</Section>
 	);
