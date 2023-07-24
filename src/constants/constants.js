@@ -1,46 +1,60 @@
-export const projects = [
-  {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+export const accomplishments = [
+	{ text: 'AWS Solutions Architect Associate Certified' },
+	{ text: 'Developed and implemented novel software styling.' },
+	{
+		text: 'Removed bugs and errors from the web application, making it 40% more efficient.',
+	},
+	{
+		text: 'Successfully modified the web application that increased user-friendliness by 10%.',
+	},
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+export const projects = [
+	{
+		title: 'Chat',
+		description:
+			'Please email at hemalawati@gmail.com for credential. This is a full Realtime Chat Application. There is a message read feature. You will be able to send attachments also.',
+		image: '/images/chat-app.jpg',
+		tags: ['React', 'ChatEngine', 'Firebase'],
+		visit: 'https://chat-app-hemalawati.netlify.app/',
+		code: 'https://github.com/hemalawati/chat-application',
+		id: 0,
+	},
+	{
+		title: 'Trip Advisor',
+		description:
+			'Please allow the access to your location to run this project. You will be able to explore restaurants, hotels and attractions in this project. Filter by rating is available.',
+		image: '/images/trip-advisor.png',
+		tags: ['React', 'Axios', 'Google Map React'],
+		visit: 'https://travel-app-hemalawati.netlify.app/',
+		code: 'https://github.com/hemalawati/travel-advisor',
+		id: 1,
+	},
+	{
+		title: 'E-Commerce',
+		description:
+			'This is a mini webshop app where you can add or edit products to the cart. With Stripe, there is a checkout feature too.',
+		image: '/images/e-commerce.png',
+		tags: ['React', 'Material UI', 'Stripe'],
+		visit: 'https://electronic-commerce.netlify.app',
+		code: 'https://github.com/hemalawati/ecommerce-shop',
+		id: 2,
+	},
+	{
+		title: 'Day-Night',
+		description:
+			'This is small animation project done for fun. The animation is named day-night and it is a simple animation of sunset and moonrise.',
+		image: '/images/day-night.png',
+		tags: ['JavaScript', 'HTML', 'CSS'],
+		visit: 'https://day-night-animation.netlify.app/',
+		code: 'https://github.com/hemalawati/sunrise-sunset-animation',
+		id: 3,
+	},
+];
+
+export const timeLineData = [
+	{ year: 2015, text: 'Started my journey' },
+	{ year: 2016, text: 'Software Engineer at AutoPoint' },
+	{ year: 2021, text: 'Freelancer' },
+	{ year: 2022, text: 'Software Developer at Dash Hudson' },
 ];
