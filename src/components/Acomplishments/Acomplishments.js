@@ -9,8 +9,13 @@ const Acomplishments = () => (
 		<SectionTitle>Personal Acomplishments</SectionTitle>
 		<Boxes>
 			{accomplishments.map((card, index) => (
-				<Box key={index}>
+				<Box key={index} style={{ display: 'flex' }}>
 					<BoxText>{card.text}</BoxText>
+					{card.image ? (
+						<img src={card.image} style={{ width: '100px', height: '50px' }} />
+					) : (
+						''
+					)}
 				</Box>
 			))}
 		</Boxes>

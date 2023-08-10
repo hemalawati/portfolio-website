@@ -1,50 +1,22 @@
 import React from 'react';
-// import { Document, Page, pdfjs } from 'react-pdf';
-
-import {
-	Section,
-	SectionText,
-	SectionTitle,
-} from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
-
-// pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+import { TypeAnimation } from 'react-type-animation';
+import { HeroSection, IntroDescription, LeftSection } from './HeroStyles';
 
 const Hero = () => {
-	// const [showResume, setshowResume] = React.useState(false);
-	// const toggleShowResume = () => {
-	// 	setshowResume((current) => !current);
-	// };
-
 	return (
-		<Section row nopadding>
+		<HeroSection nopadding>
 			<LeftSection>
-				<SectionTitle main center>
-					Welcome To <br />
-					My Personal Portfolio
-				</SectionTitle>
-				<SectionText>
+				<TypeAnimation
+					sequence={[`Hi, I'm Hema.`]}
+					speed={(50, { type: 'keyStrokeDelayInMs', value: 100 })}
+					style={{ fontSize: '65px' }}
+				/>
+				<IntroDescription>
 					I am a developer with a passion for beautiful interfaces. I like to
 					craft quality and interactive products with great user experiences.
-				</SectionText>
-				{/* <Document file="/Resume.pdf">
-					<a target="_blank">
-						<Button onClick={toggleShowResume}>
-							{showResume ? 'Close' : 'View my Resume'}
-						</Button>
-						{showResume && (
-							<Page
-								pageNumber={1}
-								renderAnnotationLayer={false}
-								renderTextLayer={false}
-								canvasBackground="transparent"
-							/>
-						)}
-					</a>
-				</Document> */}
+				</IntroDescription>
 			</LeftSection>
-		</Section>
+		</HeroSection>
 	);
 };
 
