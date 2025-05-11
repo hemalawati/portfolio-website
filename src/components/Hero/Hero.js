@@ -1,6 +1,11 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import { HeroSection, IntroDescription, LeftSection } from './HeroStyles';
+import {
+	HeroSection,
+	IntroDescription,
+	LeftSection,
+	Resume,
+} from './HeroStyles';
 
 const Hero = () => {
 	return (
@@ -15,6 +20,9 @@ const Hero = () => {
 					I am a developer with a passion for beautiful interfaces. I like to
 					craft quality and interactive products with great user experiences.
 				</IntroDescription>
+				<Resume href="/Resume.pdf" target="_blank">
+					Download CV
+				</Resume>
 			</LeftSection>
 		</HeroSection>
 	);

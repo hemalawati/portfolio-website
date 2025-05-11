@@ -35,3 +35,25 @@ export const LeftSection = styled.div`
 		margin: 0 auto;
 	}
 `;
+
+export const Resume = styled.a`
+	color: rgba(255, 255, 255, 0.5);
+	animation: fadeIn 6s;
+
+	border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+
+	@keyframes fadeIn {
+		0%,
+		40% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+`;
