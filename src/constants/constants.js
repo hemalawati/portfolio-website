@@ -1,8 +1,4 @@
 export const accomplishments = [
-	{
-		text: 'AWS Solutions Architect Associate Certified',
-		image: '/images/aws-saa-badge.png',
-	},
 	{ text: 'Developed and implemented novel software styling.' },
 	{
 		text: 'Removed bugs and errors from the web application, making it 40% more efficient.',
