@@ -60,4 +60,5 @@ export const timeLineData = [
 	{ year: 2016, text: 'Software Engineer at AutoPoint' },
 	{ year: 2021, text: 'Freelancer' },
 	{ year: 2022, text: 'Software Developer at Dash Hudson' },
+	{ year: 2023, text: 'Volunteer Mentor at Canada Learning Code' },
 ];
