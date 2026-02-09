@@ -20,9 +20,6 @@ const Hero = () => {
 					I am a developer with a passion for beautiful interfaces. I like to
 					craft quality and interactive products with great user experiences.
 				</IntroDescription>
-				<Resume href="/Resume.pdf" target="_blank">
-					Download CV
-				</Resume>
 			</LeftSection>
 		</HeroSection>
 	);
